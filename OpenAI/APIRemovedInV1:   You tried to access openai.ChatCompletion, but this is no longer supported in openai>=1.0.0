@@ -1,0 +1,18 @@
+# 에러 발생
+APIRemovedInV1: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+# 해결 방법
+Andrew 선생님의 ChatGPT Prompt Engineering을 듣다가 해당 문제가 발생했습니다!
+현재 버전에서 지원하지 않는다는 문제인데 저는 최신 버전을 쓰고 해당 강의의 코드는 현재 더 이상 지원하지 않는 코드를 사용해서 발생한 문제인 것 같습니다!
+해결 방법으로는 코드 최신화, 이전 버전으로 다운 그레이드, openai의 자동 마이그레이션이 있는 것 같은데 저는 해당 강의를 보며 강의에서 제공하는 코드를 계속 사용해볼거라서 제 버전을 다운그레이드하는 방법을 사용했습니다!
+
+# 해결
+pip install openai==0.27.0
