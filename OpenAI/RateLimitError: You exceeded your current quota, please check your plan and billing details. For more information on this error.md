@@ -2,6 +2,7 @@
 [OpenAI](https://platform.openai.com/docs/guides/error-codes/api-errors.)의 에러 문서를 보니 에러 코드는 429인 것 같습니다!
 ## 원인 발생
 저는 Andrew 교수님의 GPT Prompt Enginnering 강의를 듣던 중 직접 따라해보며 실습을 진행중이었는데 진행하던 중 API를 사용하는 부분에서 해당 에러가 발생하였습니다.
+
 <img width="676" alt="image" src="https://github.com/user-attachments/assets/9c08ea13-6fed-4251-bf92-de60570a4fe5">
 
 ## 해결 방법 찾기
